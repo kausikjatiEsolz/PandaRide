@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="Cs1-fe-qCc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="Cs1-fe-qCc">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -69,10 +69,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Attachment-1" id="rhU-hs-Uex">
-                                <rect key="frame" x="92" y="44" width="129" height="127"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mV8-QF-JKX">
                                 <rect key="frame" x="27" y="358" width="260" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -101,6 +97,10 @@
                                     <action selector="RegisterTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r5c-4g-p2y"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="applogo" id="rhU-hs-Uex">
+                                <rect key="frame" x="89" y="27" width="143" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -132,7 +132,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hGH-AC-k8Q">
                                         <rect key="frame" x="-12" y="10" width="88" height="55"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="left-arrow(1)"/>
+                                        <state key="normal" image="left"/>
                                         <connections>
                                             <action selector="backTosignin:" destination="Uae-bu-PTl" eventType="touchUpInside" id="p4g-dN-c5o"/>
                                         </connections>
@@ -264,15 +264,10 @@
                                         <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                                     </textField>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Noimage 1" id="xlO-Nt-6Rc">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="user" id="xlO-Nt-6Rc">
                                         <rect key="frame" x="123" y="16" width="70" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fTC-Eq-6cc">
-                                        <rect key="frame" x="164" y="51" width="48" height="47"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="edit_icon"/>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oKZ-Me-pMw">
                                         <rect key="frame" x="24" y="550" width="269" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -309,6 +304,10 @@
                                         <connections>
                                             <action selector="backTosignin:" destination="Uae-bu-PTl" eventType="touchUpInside" id="WUa-wP-fta"/>
                                         </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fTC-Eq-6cc">
+                                        <rect key="frame" x="107" y="8" width="104" height="94"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </button>
                                 </subviews>
                             </scrollView>
@@ -409,7 +408,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="oML-dH-BBa">
                                         <rect key="frame" x="-12" y="10" width="88" height="55"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="lines-menu"/>
+                                        <state key="normal" image="menu"/>
                                         <connections>
                                             <action selector="backTosignin:" destination="Uae-bu-PTl" eventType="touchUpInside" id="YZQ-nH-nEL"/>
                                             <action selector="back_Tap:" destination="pVg-v8-VCr" eventType="touchUpInside" id="SNk-dg-Bda"/>
@@ -418,7 +417,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7sh-Af-LXx">
                                         <rect key="frame" x="258" y="10" width="62" height="55"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="ic_tune_3x"/>
+                                        <state key="normal" image="filter"/>
                                         <connections>
                                             <action selector="filter:" destination="pVg-v8-VCr" eventType="touchUpInside" id="lAY-Tb-wrf"/>
                                         </connections>
@@ -526,7 +525,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ci7-fF-vPU">
                                         <rect key="frame" x="-12" y="10" width="88" height="55"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="left-arrow(1)"/>
+                                        <state key="normal" image="left"/>
                                         <connections>
                                             <action selector="back:" destination="Xcp-M7-ov3" eventType="touchUpInside" id="3V9-ha-Jkt"/>
                                         </connections>
@@ -631,14 +630,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Attachment-1" width="2500" height="2500"/>
         <image name="Noimage 1" width="55" height="55"/>
+        <image name="applogo" width="2500" height="2500"/>
         <image name="arrow-down-sign-to-navigate" width="32" height="32"/>
-        <image name="edit_icon" width="24" height="24"/>
-        <image name="ic_tune_3x" width="36" height="36"/>
+        <image name="filter" width="25" height="25"/>
         <image name="ktm-rc-200_827x510_81479376745" width="413" height="255"/>
-        <image name="left-arrow(1)" width="32" height="32"/>
-        <image name="lines-menu" width="24" height="24"/>
+        <image name="left" width="16" height="16"/>
+        <image name="menu" width="32" height="32"/>
+        <image name="user" width="64" height="64"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
