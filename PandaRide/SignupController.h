@@ -10,10 +10,14 @@
 
 @interface SignupController : UIViewController
 {
+    __weak IBOutlet UIButton *resgiterBtn;
     __weak IBOutlet UIScrollView *_scrollView;
     
+    __weak IBOutlet UIImageView *user_image;
     __weak IBOutlet UILabel *last_lbl;
 }
 - (IBAction)backTosignin:(UIButton *)sender;
+- (IBAction)image_upload:(id)sender;
+- (IBAction)regiterTap:(UIButton *)sender;
 
 @end

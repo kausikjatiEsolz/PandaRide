@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "SignupController.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITextFieldDelegate>
 
 @end
 
@@ -20,6 +20,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     
    // [self setStatusBarBackgroundColor:[UIColor whiteColor]];
+    
+    
+    sigin_btn.layer.cornerRadius = 3;
     
 }
 
@@ -38,6 +41,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    
+    return YES;
+}
 
 - (IBAction)RegisterTap:(UIButton *)sender {
     
@@ -46,5 +55,8 @@
     
     [self.navigationController pushViewController:obj animated:YES];
     
+}
+
+- (IBAction)signinAction:(UIButton *)sender {
 }
 @end

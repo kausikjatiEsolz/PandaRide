@@ -8,10 +8,12 @@
 
 #import "SignupController.h"
 
-@interface SignupController ()<UITextFieldDelegate>
+@interface SignupController ()<UITextFieldDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 {
     float keybord_height;
 }
+
+@property(strong,nonatomic)UIImagePickerController *imgPickerController;
 
 @end
 
@@ -30,6 +32,11 @@
             text.delegate = self;
         }
     }
+    
+    user_image.clipsToBounds =YES;
+    user_image.layer.cornerRadius = user_image.frame.size.width/2;
+    
+    resgiterBtn.layer.cornerRadius = 3;
     
     
     [[NSNotificationCenter defaultCenter] addObserver:self
@@ -178,4 +185,83 @@
     [self.navigationController popViewControllerAnimated: YES];
     
 }
+
+- (IBAction)image_upload:(id)sender {
+    
+    
+    UIAlertController *departureActnSht = [UIAlertController alertControllerWithTitle:nil message:nil  preferredStyle:UIAlertControllerStyleActionSheet];
+   
+    UIAlertAction *camera = [UIAlertAction actionWithTitle:@"Camera" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action){
+        
+        
+        if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
+        {
+            [self showImgaePickerViewForSourceType:UIImagePickerControllerSourceTypeCamera];
+        }
+       
+        
+    }];
+    
+    UIAlertAction *photos = [UIAlertAction actionWithTitle:@"Photos" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action){
+        
+         [self showImgaePickerViewForSourceType:UIImagePickerControllerSourceTypePhotoLibrary];
+        
+    }];
+    
+    
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleDestructive handler:^(UIAlertAction *action){
+        
+        // [self dismissViewControllerAnimated:departureActnSht completion:nil];
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }];
+    
+    [departureActnSht addAction:camera];
+    [departureActnSht addAction:photos];
+    [departureActnSht addAction:cancelAction];
+    [self presentViewController:departureActnSht animated:YES completion:nil];
+    
+}
+
+- (IBAction)regiterTap:(UIButton *)sender {
+}
+
+
+
+
+
+- (void)showImgaePickerViewForSourceType:(UIImagePickerControllerSourceType)sourceType
+{
+    UIImagePickerController *imagePickerController = [[UIImagePickerController alloc] init];
+    imagePickerController.modalPresentationStyle = UIModalPresentationCurrentContext;
+    imagePickerController.sourceType = sourceType;
+    imagePickerController.allowsEditing = YES;
+    imagePickerController.delegate = self;
+    self.imgPickerController = imagePickerController;
+    
+    
+    [self presentViewController:self.imgPickerController animated:YES completion:NULL];
+    
+}
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    UIImage *image = info[UIImagePickerControllerEditedImage];
+    
+    user_image.image = image;
+    
+    NSLog(@"image---->%@",image);
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+    // Do something with picked image
+}
+
+
+-(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+
+
+
 @end

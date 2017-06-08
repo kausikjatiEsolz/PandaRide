@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59F4E658A1DACE0139CD1B83 /* libPods-PandaRideTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 246B38FE94464BEDA815CAC0 /* libPods-PandaRideTests.a */; };
+		7E04A7D33EC4D6CE69626624 /* libPods-PandaRide.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27402D49A4EB011230112534 /* libPods-PandaRide.a */; };
 		9799FC821EE95DA300F75DFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9799FC811EE95DA300F75DFD /* main.m */; };
 		9799FC8E1EE95DA300F75DFD /* PandaRide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9799FC8C1EE95DA300F75DFD /* PandaRide.xcdatamodeld */; };
 		9799FC901EE95DA300F75DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9799FC8F1EE95DA300F75DFD /* Assets.xcassets */; };
@@ -21,6 +23,9 @@
 		97A8FBF41EE95FA700D070F3 /* FilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A8FBEB1EE95FA700D070F3 /* FilterController.m */; };
 		97A8FBF51EE95FA700D070F3 /* SignupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A8FBED1EE95FA700D070F3 /* SignupController.m */; };
 		97A8FBF61EE95FA700D070F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A8FBEF1EE95FA700D070F3 /* ViewController.m */; };
+		97B024011EE9A55F00828724 /* GMDCircleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B024001EE9A55F00828724 /* GMDCircleLoader.m */; };
+		97B024061EE9A8EE00828724 /* Json_Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B024051EE9A8EE00828724 /* Json_Class.m */; };
+		AD0444B9F0ADF80438897291 /* libPods-PandaRideUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE48D0FE24D0AFB0F8BBE12 /* libPods-PandaRideUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06BA0AACFE4CD1882353E01C /* Pods-PandaRideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaRideTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PandaRideTests/Pods-PandaRideTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0AE48D0FE24D0AFB0F8BBE12 /* libPods-PandaRideUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PandaRideUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF9A25A4596320AE7A6A707 /* Pods-PandaRideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaRideTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PandaRideTests/Pods-PandaRideTests.release.xcconfig"; sourceTree = "<group>"; };
+		246B38FE94464BEDA815CAC0 /* libPods-PandaRideTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PandaRideTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27402D49A4EB011230112534 /* libPods-PandaRide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PandaRide.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		350C5BB2BF519735BC092407 /* Pods-PandaRideUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaRideUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PandaRideUITests/Pods-PandaRideUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6460A7C4B6B0DD1EEF51F815 /* Pods-PandaRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaRide.release.xcconfig"; path = "Pods/Target Support Files/Pods-PandaRide/Pods-PandaRide.release.xcconfig"; sourceTree = "<group>"; };
+		7AAB26EB707DF04554FCEA78 /* Pods-PandaRideUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaRideUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PandaRideUITests/Pods-PandaRideUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9799FC7D1EE95DA300F75DFD /* PandaRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PandaRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9799FC811EE95DA300F75DFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9799FC8D1EE95DA300F75DFD /* PandaRide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PandaRide.xcdatamodel; sourceTree = "<group>"; };
@@ -68,6 +81,13 @@
 		97A8FBED1EE95FA700D070F3 /* SignupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupController.m; sourceTree = "<group>"; };
 		97A8FBEE1EE95FA700D070F3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		97A8FBEF1EE95FA700D070F3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97B023FF1EE9A55F00828724 /* GMDCircleLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDCircleLoader.h; sourceTree = "<group>"; };
+		97B024001EE9A55F00828724 /* GMDCircleLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDCircleLoader.m; sourceTree = "<group>"; };
+		97B024021EE9A8EE00828724 /* RS_PCH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RS_PCH.pch; sourceTree = "<group>"; };
+		97B024031EE9A8EE00828724 /* RS_ios_customBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RS_ios_customBlock.h; sourceTree = "<group>"; };
+		97B024041EE9A8EE00828724 /* Json_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Json_Class.h; sourceTree = "<group>"; };
+		97B024051EE9A8EE00828724 /* Json_Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Json_Class.m; sourceTree = "<group>"; };
+		DEB30572443EA2B25117D5AE /* Pods-PandaRide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaRide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PandaRide/Pods-PandaRide.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E04A7D33EC4D6CE69626624 /* libPods-PandaRide.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F4E658A1DACE0139CD1B83 /* libPods-PandaRideTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0444B9F0ADF80438897291 /* libPods-PandaRideUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +125,8 @@
 				9799FC9C1EE95DA300F75DFD /* PandaRideTests */,
 				9799FCA71EE95DA300F75DFD /* PandaRideUITests */,
 				9799FC7E1EE95DA300F75DFD /* Products */,
+				B733D8E0BC2FC1A0F1D939F7 /* Pods */,
+				F1A6BFA626311C1D23C71482 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +143,7 @@
 		9799FC7F1EE95DA300F75DFD /* PandaRide */ = {
 			isa = PBXGroup;
 			children = (
+				97B023FE1EE9A54D00828724 /* Loader */,
 				97B023FD1EE9A0FD00828724 /* JsonClass */,
 				97B023FB1EE9A0D400828724 /* TableCell */,
 				97B023FC1EE9A0E400828724 /* Controller */,
@@ -188,8 +214,44 @@
 		97B023FD1EE9A0FD00828724 /* JsonClass */ = {
 			isa = PBXGroup;
 			children = (
+				97B024021EE9A8EE00828724 /* RS_PCH.pch */,
+				97B024031EE9A8EE00828724 /* RS_ios_customBlock.h */,
+				97B024041EE9A8EE00828724 /* Json_Class.h */,
+				97B024051EE9A8EE00828724 /* Json_Class.m */,
 			);
 			name = JsonClass;
+			sourceTree = "<group>";
+		};
+		97B023FE1EE9A54D00828724 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				97B023FF1EE9A55F00828724 /* GMDCircleLoader.h */,
+				97B024001EE9A55F00828724 /* GMDCircleLoader.m */,
+			);
+			name = Loader;
+			sourceTree = "<group>";
+		};
+		B733D8E0BC2FC1A0F1D939F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEB30572443EA2B25117D5AE /* Pods-PandaRide.debug.xcconfig */,
+				6460A7C4B6B0DD1EEF51F815 /* Pods-PandaRide.release.xcconfig */,
+				06BA0AACFE4CD1882353E01C /* Pods-PandaRideTests.debug.xcconfig */,
+				1FF9A25A4596320AE7A6A707 /* Pods-PandaRideTests.release.xcconfig */,
+				350C5BB2BF519735BC092407 /* Pods-PandaRideUITests.debug.xcconfig */,
+				7AAB26EB707DF04554FCEA78 /* Pods-PandaRideUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1A6BFA626311C1D23C71482 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27402D49A4EB011230112534 /* libPods-PandaRide.a */,
+				246B38FE94464BEDA815CAC0 /* libPods-PandaRideTests.a */,
+				0AE48D0FE24D0AFB0F8BBE12 /* libPods-PandaRideUITests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9799FCAD1EE95DA300F75DFD /* Build configuration list for PBXNativeTarget "PandaRide" */;
 			buildPhases = (
+				1041B7AE7671936E0AC33495 /* [CP] Check Pods Manifest.lock */,
 				9799FC791EE95DA300F75DFD /* Sources */,
 				9799FC7A1EE95DA300F75DFD /* Frameworks */,
 				9799FC7B1EE95DA300F75DFD /* Resources */,
+				CBB22A58E31485BE3AECE702 /* [CP] Embed Pods Frameworks */,
+				420FF02E95EA6628DA306FFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9799FCB01EE95DA300F75DFD /* Build configuration list for PBXNativeTarget "PandaRideTests" */;
 			buildPhases = (
+				436F90B515BCC8AB1A3DAAB6 /* [CP] Check Pods Manifest.lock */,
 				9799FC951EE95DA300F75DFD /* Sources */,
 				9799FC961EE95DA300F75DFD /* Frameworks */,
 				9799FC971EE95DA300F75DFD /* Resources */,
+				57B59FA2827265F242D45171 /* [CP] Embed Pods Frameworks */,
+				8A34D1A549DCB40817598218 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,9 +302,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9799FCB31EE95DA300F75DFD /* Build configuration list for PBXNativeTarget "PandaRideUITests" */;
 			buildPhases = (
+				4A19206818B98D07A73666B3 /* [CP] Check Pods Manifest.lock */,
 				9799FCA01EE95DA300F75DFD /* Sources */,
 				9799FCA11EE95DA300F75DFD /* Frameworks */,
 				9799FCA21EE95DA300F75DFD /* Resources */,
+				3100A4746B7447F4955E5B00 /* [CP] Embed Pods Frameworks */,
+				A34E91A741F1D10102A5EAEA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -321,16 +392,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1041B7AE7671936E0AC33495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3100A4746B7447F4955E5B00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PandaRideUITests/Pods-PandaRideUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		420FF02E95EA6628DA306FFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PandaRide/Pods-PandaRide-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		436F90B515BCC8AB1A3DAAB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A19206818B98D07A73666B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57B59FA2827265F242D45171 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PandaRideTests/Pods-PandaRideTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A34D1A549DCB40817598218 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PandaRideTests/Pods-PandaRideTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A34E91A741F1D10102A5EAEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PandaRideUITests/Pods-PandaRideUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB22A58E31485BE3AECE702 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PandaRide/Pods-PandaRide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9799FC791EE95DA300F75DFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B024061EE9A8EE00828724 /* Json_Class.m in Sources */,
 				97A8FBF61EE95FA700D070F3 /* ViewController.m in Sources */,
 				97A8FBF41EE95FA700D070F3 /* FilterController.m in Sources */,
 				9799FC8E1EE95DA300F75DFD /* PandaRide.xcdatamodeld in Sources */,
 				97A8FBF11EE95FA700D070F3 /* BikeListingCell.m in Sources */,
 				97A8FBF31EE95FA700D070F3 /* DetailsController.m in Sources */,
+				97B024011EE9A55F00828724 /* GMDCircleLoader.m in Sources */,
 				9799FC821EE95DA300F75DFD /* main.m in Sources */,
 				97A8FBF21EE95FA700D070F3 /* BikeListingController.m in Sources */,
 				97A8FBF01EE95FA700D070F3 /* AppDelegate.m in Sources */,
@@ -473,6 +684,7 @@
 		};
 		9799FCAE1EE95DA300F75DFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB30572443EA2B25117D5AE /* Pods-PandaRide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -489,6 +701,7 @@
 		};
 		9799FCAF1EE95DA300F75DFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6460A7C4B6B0DD1EEF51F815 /* Pods-PandaRide.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -505,6 +718,7 @@
 		};
 		9799FCB11EE95DA300F75DFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06BA0AACFE4CD1882353E01C /* Pods-PandaRideTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PandaRideTests/Info.plist;
@@ -517,6 +731,7 @@
 		};
 		9799FCB21EE95DA300F75DFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF9A25A4596320AE7A6A707 /* Pods-PandaRideTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PandaRideTests/Info.plist;
@@ -529,6 +744,7 @@
 		};
 		9799FCB41EE95DA300F75DFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 350C5BB2BF519735BC092407 /* Pods-PandaRideUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PandaRideUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -540,6 +756,7 @@
 		};
 		9799FCB51EE95DA300F75DFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AAB26EB707DF04554FCEA78 /* Pods-PandaRideUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PandaRideUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

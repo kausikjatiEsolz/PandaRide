@@ -9,8 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    __weak IBOutlet UIButton *sigin_btn;
+    
+}
 
 - (IBAction)RegisterTap:(UIButton *)sender;
+- (IBAction)signinAction:(UIButton *)sender;
 
 @end
 
